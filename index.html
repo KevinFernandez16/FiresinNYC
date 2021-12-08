@@ -135,27 +135,35 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-twothird">
       <h1>Techniques Used</h1>
-      <h5 class="w3-padding-32">I imported the <b>pandas and the matplotlib libraries</b> to gather my data. I used <b>matplotlib for my graph</b> and <b>pandas to remove, filter and sort the columns and rows of my data table</b>. To remove unecessary columns that had nothing to do with my project, I used the <b>drop command which drops stated columns from the csv file</b>. There was A LOT of unecessary info so I used the command alot to make my data neater and presentable. After I dropped these columns, it was time to filter the data by borough and community district number. I used the <b>dataframe.loc command</b> which allowed me to find certain values in a column that contained a specific value, for example, "QUEENS", and it would find all the rows in the borough column that contains "QUEENS". I did this for all 5 boroughs and I also filtered them all based on community district codes depending on which area of a borough I was using. Now that I filtered the areas of each borough, I needed to put all this information on a presentable graph and this is where matplotlib comes to play. I created a dataframe within my code that contained all the values of the low-income and high-income incidents throughout the 5 boroughs.I used <b>plotdata.plot</b> to describe what kind of graph I want and the size. I gave the graph a title and labels using commands such as <b>plt.title</b> and <b>plt.xlabel</b>. 
+      <h5 class="w3-padding-32">I imported the <b>pandas and the matplotlib libraries</b> to gather my data. I used <b>matplotlib for my graph</b> and <b>pandas to remove, filter and sort the columns and rows of my data table</b>. To remove unecessary columns that had nothing to do with my project, I used the <b>drop command which drops stated columns from the csv file</b>. There was A LOT of unecessary info so I used the command alot to make my data neater and presentable. After I dropped these columns, it was time to filter the data by borough and community district number. I used the <b>dataframe.loc command</b> which allowed me to find certain values in a column that contained a specific value, for example, "QUEENS", and it would find all the rows in the borough column that contains "QUEENS". I did this for all 5 boroughs and I also filtered them all based on community district codes depending on which area of a borough I was using. Now that I filtered the areas of each borough, I needed to put all this information on a presentable graph and this is where matplotlib comes to play. I created a dataframe within my code that contained all the values of the low-income and high-income incidents throughout the 5 boroughs.I used <b>plotdata.plot</b> to describe what kind of graph I want and the size. I gave the graph a title and labels using commands such as <b>plt.title</b> and <b>plt.xlabel</b>.
     </div>
   </div>
 </div>
-<!--Quote-->
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+<!-- Techniques -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Citations</h1>
+      <h5 class="w3-padding-32">
+        Project Data Table:
+        <br><a href = "url">https://data.cityofnewyork.us/Public-Safety/Fire-Incident-Dispatch-Data/8m42-w767/data</a>
+        <br>
+        <br>
+        Info for Community District Codes: <a href = "url">http://www.infoshare.org/misc/CommunityDistricts.pdf</a>
+        <br>
+        <br>
+        Used to double check district codes:
+        <a href = "url">https://communityprofiles.planning.nyc.gov/</a>
+
+
+
+    </div>
+  </div>
 </div>
-
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
-  <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
-</footer>
-
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
